@@ -30,7 +30,7 @@ kubectl apply --selector knative.dev/crd-install=true \
 --filename https://github.com/knative/build/releases/download/v0.5.0/build.yaml \
 --filename https://github.com/knative/eventing/releases/download/v0.5.0/release.yaml \
 --filename https://github.com/knative/eventing-sources/releases/download/v0.5.0/eventing-sources.yaml \
---filename https://github.com/knative/serving/releases/download/v0.5.0/monitoring.yaml \
+--filename https://github.com/knative/serving/releases/download/v0.5.0/monitoring.yaml 
 ```
 
 Install Knative PODs
